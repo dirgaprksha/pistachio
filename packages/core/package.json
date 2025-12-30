@@ -8,6 +8,9 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c ../../rollup.config.mjs --environment TARGET:core",
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
