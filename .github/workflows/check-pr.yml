@@ -10,10 +10,6 @@ on:
 jobs:
   build-packages:
     runs-on: [self-hosted, macOS, x64]
-    if: |
-      startsWith(github.event.pull_request.head.ref, 'feat/') ||
-      startsWith(github.event.pull_request.head.ref, 'fix/') ||
-      startsWith(github.event.pull_request.head.ref, 'ci/')
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -22,5 +18,5 @@ jobs:
       - run: corepack enable
       - run: corepack prepare pnpm@9.7.1 --activate
       - run: pnpm install --frozen-lockfile
-      - run: pnpm build:core
+      - run: pnpm build
       - run: pnpm test:coverage
