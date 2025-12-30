@@ -21,6 +21,6 @@ jobs:
           node-version: 20
       - run: corepack enable
       - run: corepack prepare pnpm@9.7.1 --activate
-      - run: pnpm install
+      - run: pnpm install --frozen-lockfile
       - run: pnpm build:core
       - run: pnpm test:coverage
