@@ -1,0 +1,26 @@
+name: Check PR
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+      - release-candidate
+
+jobs:
+  build-packages:
+    runs-on: [self-hosted, macOS, x64]
+    if: |
+      startsWith(github.event.pull_request.head.ref, 'feat/') ||
+      startsWith(github.event.pull_request.head.ref, 'fix/') ||
+      startsWith(github.event.pull_request.head.ref, 'ci/')
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: corepack enable
+      - run: corepack prepare pnpm@9.7.1 --activate
+      - run: pnpm install
+      - run: pnpm build:core
+      - run: pnpm test:coverage
