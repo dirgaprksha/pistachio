@@ -54,6 +54,7 @@ jobs:
       - run: corepack enable
       - run: corepack prepare pnpm@9.7.1 --activate
       - run: pnpm install --frozen-lockfile
+      - run: pnpm build:core
       - run: git pull origin main --no-rebase
       - run: pnpm cg:version
       - run: |
