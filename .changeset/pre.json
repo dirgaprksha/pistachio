@@ -5,6 +5,9 @@
     "@pistachiojs/core": "0.0.0"
   },
   "changesets": [
-    "proud-planes-add"
+    "fancy-rats-prove",
+    "little-facts-sort",
+    "proud-planes-add",
+    "silly-pumas-drive"
   ]
 }
