@@ -17,8 +17,8 @@ function createConfig({ name, external = [], plugins = [] }) {
     {
       input,
       output: [
-        { file: path.join(output, 'index.js'), format: 'cjs', sourcemap: true },
-        { file: path.join(output, 'index.esm.js'), format: 'esm', sourcemap: true },
+        { file: path.join(output, 'index.js'), format: 'cjs', sourcemap: false },
+        { file: path.join(output, 'index.esm.js'), format: 'esm', sourcemap: false },
       ],
       external,
       plugins: [

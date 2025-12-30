@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky",
+    "build:types": "turbo run build:types",
     "build:types-core": "turbo run build:types --filter=@pistachiojs/core",
+    "build": "pnpm run build:types && turbo run build",
     "build:core": "pnpm run build:types-core && turbo run build --filter=@pistachiojs/core",
     "clean": "turbo run clean && rimraf node_modules",
     "format": "prettier --write \"**/*.{tsx,ts,md,cjs}\"",
