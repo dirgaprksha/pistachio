@@ -1,5 +1,11 @@
 # @pistachiojs/core
 
+## 0.1.0-dev.2
+
+### Minor Changes
+
+- a84d8c6: - Added new toPascalCase function
+
 ## 0.1.0-dev.1
 
 ### Minor Changes
