@@ -9,7 +9,9 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/index.js",
+    "dist/index.esm.js",
+    "dist/index.d.ts"
   ],
   "scripts": {
     "build": "rollup -c ../../rollup.config.mjs --environment TARGET:core",
