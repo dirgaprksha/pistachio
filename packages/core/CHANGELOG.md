@@ -1,5 +1,11 @@
 # @pistachiojs/core
 
+## 0.1.0-dev.3
+
+### Minor Changes
+
+- ec99899: - Added new toSentenceCase function
+
 ## 0.1.0-dev.2
 
 ### Minor Changes
