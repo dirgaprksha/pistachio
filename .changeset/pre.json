@@ -4,5 +4,7 @@
   "initialVersions": {
     "@pistachiojs/core": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "proud-planes-add"
+  ]
 }
