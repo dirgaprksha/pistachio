@@ -81,6 +81,8 @@ importers:
         specifier: ^4.0.16
         version: 4.0.16(@types/node@24.10.4)(jsdom@25.0.1)
 
+  packages/core: {}
+
 packages:
 
   /@adobe/css-tools@4.4.4:

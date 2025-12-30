@@ -1,0 +1,16 @@
+{
+  "name": "@pistachiojs/core",
+  "description": "-",
+  "version": "0.0.0",
+  "author": "Dirga Prakesha <dirga.prakesha@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.mjs --environment TARGET:core",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
+    "clean": "rimraf node_modules dist"
+  }
+}
