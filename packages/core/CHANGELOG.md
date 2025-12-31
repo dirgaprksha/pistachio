@@ -1,5 +1,16 @@
 # @pistachiojs/core
 
+## 0.1.0-dev.5
+
+### Minor Changes
+
+- db8288a: - Added new toTitleCase function
+- 7fa7a4e: - Added new slice function
+- abfe02c: - Added new toUpperCase function
+- 3e2353f: - Added new split function
+- 25474cb: - Added new toSnakeCase function
+- 2bd1655: - Added new truncate function
+
 ## 0.1.0-dev.4
 
 ### Minor Changes
