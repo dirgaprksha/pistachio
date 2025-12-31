@@ -1,5 +1,11 @@
 # @pistachiojs/core
 
+## 0.1.0-dev.4
+
+### Minor Changes
+
+- 92f3ec7: - Added new toSlug function
+
 ## 0.1.0-dev.3
 
 ### Minor Changes
