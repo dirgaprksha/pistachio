@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "dev",
+  "initialVersions": {
+    "@pistachiojs/core": "0.1.0"
+  },
+  "changesets": []
+}
