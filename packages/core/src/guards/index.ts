@@ -1,2 +1,3 @@
 export * from './is-array'
 export * from './is-big-int'
+export * from './is-boolean'
