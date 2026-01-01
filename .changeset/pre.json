@@ -4,5 +4,12 @@
   "initialVersions": {
     "@pistachiojs/core": "0.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "legal-keys-doubt",
+    "many-loops-exist",
+    "neat-nights-enter",
+    "rich-ravens-wear",
+    "social-games-feel",
+    "whole-turkeys-relax"
+  ]
 }

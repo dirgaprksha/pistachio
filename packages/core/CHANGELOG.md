@@ -1,5 +1,16 @@
 # @pistachiojs/core
 
+## 0.2.0-dev.0
+
+### Minor Changes
+
+- 3898a25: - Added new sort function
+- ef1ad13: - Added new filter function
+- 60d6442: - Added new forEach function
+- 181e800: - Added new join function
+- 44ab65e: - Added new difference function
+- daa0aca: - Added new map function
+
 ## 0.1.0
 
 ### Minor Changes
