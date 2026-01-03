@@ -1,5 +1,32 @@
 # @pistachiojs/core
 
+## 0.2.0
+
+### Minor Changes
+
+- d37ad1e: - Added new isFreeze function
+- 98a7908: - Added new merge function
+- 89bd24b: - Added new isDate function
+- 4d75b1a: - Added new isFunction function
+- 4b702a0: - Added new isString function
+- 3898a25: - Added new sort function
+- a7bed81: - Added new isEmpty function
+- eb2ffa4: - Added new isArray function
+- ef1ad13: - Added new filter function
+- 60d6442: - Added new forEach function
+- 5dee286: - Added new isObject function
+- ea1a827: - Added new isBoolean function
+- 181e800: - Added new join function
+- fa53a9e: - Added new isBigInt function
+- 761c595: - Added new isTruthy function
+- 44ab65e: - Added new difference function
+- f6c3893: - Added new isSymbol function
+- 2cee960: - Added new isNumber function
+- c3ceb39: - Added new freeze function
+- 510f95b: - Added new isDefined function
+- 3928135: - Added new isUndefined function
+- daa0aca: - Added new map function
+
 ## 0.2.0-dev.2
 
 ### Minor Changes
