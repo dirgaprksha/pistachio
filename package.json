@@ -13,7 +13,7 @@
     "format": "prettier --write \"**/*.{tsx,ts,md,cjs}\"",
     "lint": "eslint \"**/*.{tsx,ts}\"",
     "test": "vitest",
-    "test:coverage": "vitest --coverage",
+    "test:coverage": "vitest --coverage && node bin/generate-coverage-badge.mjs",
     "cg:add": "changeset",
     "cg:enter": "changeset pre enter dev",
     "cg:exit": "changeset pre exit",

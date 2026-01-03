@@ -1,9 +1,28 @@
 {
   "name": "@pistachiojs/core",
-  "description": "-",
+  "description": "Framework-agnostic TypeScript utility library with pure functions for common programming tasks",
   "version": "0.2.0-dev.1",
   "author": "Dirga Prakesha <dirga.prakesha@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirgaprksha/pistachio.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/dirgaprksha/pistachio/issues"
+  },
+  "keywords": [
+    "utility",
+    "typescript",
+    "javascript",
+    "helpers",
+    "functional",
+    "framework-agnostic",
+    "type-safe",
+    "tree-shakeable",
+    "zero-dependencies"
+  ],
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
