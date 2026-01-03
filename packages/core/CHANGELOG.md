@@ -1,5 +1,17 @@
 # @pistachiojs/core
 
+## 0.2.0-dev.2
+
+### Minor Changes
+
+- d37ad1e: - Added new isFreeze function
+- 4b702a0: - Added new isString function
+- 5dee286: - Added new isObject function
+- 761c595: - Added new isTruthy function
+- f6c3893: - Added new isSymbol function
+- 2cee960: - Added new isNumber function
+- 3928135: - Added new isUndefined function
+
 ## 0.2.0-dev.1
 
 ### Minor Changes

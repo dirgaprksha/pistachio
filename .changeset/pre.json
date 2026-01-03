@@ -5,20 +5,27 @@
     "@pistachiojs/core": "0.1.0"
   },
   "changesets": [
+    "cold-moments-spend",
     "every-hoops-repeat",
     "gentle-boats-dress",
     "good-ghosts-rush",
+    "good-stars-jam",
     "legal-keys-doubt",
     "major-crews-hear",
     "major-moments-rhyme",
     "many-loops-exist",
     "neat-nights-enter",
+    "public-maps-rhyme",
     "puny-turkeys-crash",
     "rich-ravens-wear",
     "silly-states-push",
+    "slow-foxes-pay",
     "social-games-feel",
+    "spotty-candies-hug",
+    "spotty-items-judge",
     "tender-singers-smile",
     "whole-bananas-hunt",
+    "whole-ears-attack",
     "whole-turkeys-relax"
   ]
 }
