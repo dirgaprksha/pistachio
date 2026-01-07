@@ -1,4 +1,5 @@
 export * from './add'
+export * from './ceil'
 export * from './clamp'
 export * from './divide'
 export * from './multiply'
