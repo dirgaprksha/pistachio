@@ -1,5 +1,18 @@
 # @pistachiojs/core
 
+## 0.3.0
+
+### Minor Changes
+
+- 55e5eb5: - Added new clamp function
+- 7a691c9: - Added new multiply function
+- 6c570c4: - Added new round function
+- fcfcf65: - Added new ceil function
+- d89d8bf: - Added new floor function
+- 40c0431: - Added new subtract function
+- 8f42fce: - Added new divide function
+- bcb8a44: - Added new add function
+
 ## 0.3.0-dev.0
 
 ### Minor Changes
