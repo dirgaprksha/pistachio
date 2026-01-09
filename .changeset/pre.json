@@ -4,5 +4,14 @@
   "initialVersions": {
     "@pistachiojs/core": "0.2.0"
   },
-  "changesets": []
+  "changesets": [
+    "crisp-doodles-serve",
+    "every-bats-eat",
+    "gentle-toys-move",
+    "grumpy-clouds-brake",
+    "happy-lilies-stare",
+    "icy-pigs-listen",
+    "soft-bananas-admire",
+    "some-bikes-melt"
+  ]
 }
