@@ -1,6 +1,6 @@
 # @pistachiojs/vue
 
-A collection Vue hooks library for reactive programming tasks. Built on top of @pistachiojs/core packages.
+A collection Vue composables library for reactive programming tasks. Built on top of @pistachiojs/core packages.
 
 [![npm version](https://img.shields.io/npm/v/@pistachiojs/vue)](https://www.npmjs.com/package/@pistachiojs/vue)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](../../coverage)
@@ -17,13 +17,13 @@ A collection Vue hooks library for reactive programming tasks. Built on top of @
 
 ```bash
 # npm
-npm install @pistachiojs/vue
+npm install @pistachiojs/core @pistachiojs/vue
 
 # pnpm
-pnpm add @pistachiojs/vue
+pnpm add @pistachiojs/core @pistachiojs/vue
 
 # yarn
-yarn add @pistachiojs/vue
+yarn add @pistachiojs/core @pistachiojs/vue
 ```
 
 ## Usage

@@ -17,13 +17,13 @@ A collection React hooks library for reactive programming tasks. Built on top of
 
 ```bash
 # npm
-npm install @pistachiojs/react
+npm install @pistachiojs/core @pistachiojs/react
 
 # pnpm
-pnpm add @pistachiojs/react
+pnpm add @pistachiojs/core @pistachiojs/react
 
 # yarn
-yarn add @pistachiojs/react
+yarn add @pistachiojs/core @pistachiojs/react
 ```
 
 ## Usage
