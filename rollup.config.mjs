@@ -44,6 +44,16 @@ const packages = {
     createConfig({
       name: 'core',
     }),
+  react: () =>
+    createConfig({
+      name: 'react',
+      external: ['react', 'react/jsx-runtime'],
+    }),
+  vue: () =>
+    createConfig({
+      name: 'vue',
+      external: ['vue'],
+    }),
 }
 
 const target = process.env.TARGET

@@ -7,7 +7,7 @@
     },
     "build:types": {
       "cache": false,
-      "dependsOn": ["^build:types"]
+      "dependsOn": ["^build", "^build:types"]
     },
     "clean": {
       "cache": false

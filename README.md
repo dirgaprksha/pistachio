@@ -1,6 +1,6 @@
 # Pistachio
 
-A TypeScript utility library with a clear separation of concerns. Pistachio is a collection of utility packages designed with two distinct purposes:
+A utility library with a clear separation of concerns. Pistachio is a collection of utility packages designed two distinct purposes:
 
 1. **Core package** - Pure utilities for common programming tasks
 2. **Adapter packages** - Hooks/composables for reactive programming tasks
