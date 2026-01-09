@@ -1,0 +1,42 @@
+{
+  "name": "@pistachiojs/vue",
+  "description": "A Vue composables library for reactive programming tasks",
+  "version": "0.0.0",
+  "author": "Dirga Prakesha <dirga.prakesha@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirgaprksha/pistachio.git",
+    "directory": "packages/vue"
+  },
+  "keywords": [
+    "utility",
+    "typescript",
+    "javascript",
+    "helpers",
+    "functional",
+    "vue",
+    "type-safe",
+    "tree-shakeable"
+  ],
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.esm.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.mjs --environment TARGET:vue",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
+    "clean": "rimraf node_modules dist"
+  },
+  "peerDependencies": {
+    "vue": ">=3"
+  },
+  "dependencies": {
+    "@pistachiojs/core": "workspace:*"
+  }
+}
