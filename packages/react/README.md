@@ -1,6 +1,6 @@
 # @pistachiojs/react
 
-A collection React hooks library for reactive programming tasks. Built on top of @pistachiojs/core packages.
+React hooks built on top of @pistachiojs/core for reactive programming tasks.
 
 [![npm version](https://img.shields.io/npm/v/@pistachiojs/react)](https://www.npmjs.com/package/@pistachiojs/react)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](../../coverage)
@@ -9,7 +9,7 @@ A collection React hooks library for reactive programming tasks. Built on top of
 ## Key features
 
 - **Full type safety** - TypeScript-first with complete inference
-- **React optimized** - Built specifically for React 17+
+- **React specific adapters** - Designed for React 17+
 - **Tree shakeable** - Modular imports for minimal bundle size
 - **Well tested** - Comprehensive test coverage
 
@@ -57,12 +57,12 @@ This package is written in TypeScript and includes type definitions out of the b
 import { useCounter } from '@pistachiojs/react'
 
 function TypeSafeCounter() {
-  // Full type inference
+  // full type inference
   const [count, handlers] = useCounter(0, { min: 0, max: 100 })
   // count: number
   // handlers: UseCounterHandler
 
-  // All handlers are fully typed
+  // all handlers are fully typed
   handlers.increment() // () => void
   handlers.set(50) // (value: number) => void
 }

@@ -1,6 +1,6 @@
 # @pistachiojs/core
 
-A collection utility library with pure functions for common programming tasks.
+Framework-agnostic, pure utility functions for common programming tasks and reusable across any JavaScript or TypeScript environment.
 
 [![npm version](https://img.shields.io/npm/v/@pistachiojs/core)](https://www.npmjs.com/package/@pistachiojs/core)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](../../coverage)
@@ -34,11 +34,11 @@ yarn add @pistachiojs/core
 ```javascript
 import { isArray, toCamelCase } from '@pistachiojs/core'
 
-// Type checking
+// type checking
 isArray([1, 2, 3]) // true
 isArray('hello') // false
 
-// String transformation
+// string transformation
 toCamelCase('hello-world') // 'helloWorld'
 ```
 
@@ -47,11 +47,11 @@ toCamelCase('hello-world') // 'helloWorld'
 ```javascript
 const { isArray, toCamelCase } = require('@pistachiojs/core')
 
-// Type checking
+// type checking
 isArray([1, 2, 3]) // true
 isArray('hello') // false
 
-// String transformation
+// string transformation
 toCamelCase('hello-world') // 'helloWorld'
 ```
 
@@ -62,11 +62,11 @@ This package is written in TypeScript and includes type definitions out of the b
 ```typescript
 import { map, isString } from '@pistachiojs/core'
 
-// Full type inference
+// full type inference
 const numbers: number[] = [1, 2, 3]
 const doubled = map(numbers, (n) => n * 2) // number[]
 
-// Type guards narrow types
+// type guards narrow types
 function process(value: unknown) {
   if (isString(value)) {
     // value is now typed as string

@@ -1,6 +1,6 @@
 {
   "name": "@pistachiojs/react",
-  "description": "A React hooks library for reactive programming tasks",
+  "description": "React hooks built on top of @pistachiojs/core for reactive programming tasks",
   "version": "0.1.0-dev.0",
   "author": "Dirga Prakesha <dirga.prakesha@gmail.com>",
   "license": "MIT",
@@ -14,7 +14,6 @@
     "typescript",
     "javascript",
     "helpers",
-    "functional",
     "react",
     "type-safe",
     "tree-shakeable"

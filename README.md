@@ -1,9 +1,9 @@
 # Pistachio
 
-A utility library with a clear separation of concerns. Pistachio is a collection of utility packages designed two distinct purposes:
+Pistachio is a collection of utility packages with a clear separation of concerns:
 
-1. **Core package** - Pure utilities for common programming tasks
-2. **Adapter packages** - Hooks/composables for reactive programming tasks
+1. **Core package** - Framework-agnostic, pure utility functions for common programming tasks
+2. **Adapter packages** - React hooks and Vue composables built on top of core for reactive programming tasks
 
 ## Packages
 

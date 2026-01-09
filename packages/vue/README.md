@@ -1,6 +1,6 @@
 # @pistachiojs/vue
 
-A collection Vue composables library for reactive programming tasks. Built on top of @pistachiojs/core packages.
+Vue composables built on top of @pistachiojs/core for reactive programming tasks.
 
 [![npm version](https://img.shields.io/npm/v/@pistachiojs/vue)](https://www.npmjs.com/package/@pistachiojs/vue)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](../../coverage)
@@ -9,7 +9,7 @@ A collection Vue composables library for reactive programming tasks. Built on to
 ## Key features
 
 - **Full type safety** - TypeScript-first with complete inference
-- **Vue optimized** - Built specifically for Vue 3+
+- **Vue specific adapters** - Designed for Vue 3+
 - **Tree shakeable** - Modular imports for minimal bundle size
 - **Well tested** - Comprehensive test coverage
 
@@ -56,7 +56,7 @@ This package is written in TypeScript and includes type definitions out of the b
 ```typescript
 import { useCounter } from '@pistachiojs/vue'
 
-// Full type inference
+// full type inference
 const { count, increment, decrement, set, reset } = useCounter(0, { min: 0, max: 100 })
 // count: Ref<number>
 // increment: () => void
