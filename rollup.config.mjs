@@ -44,6 +44,11 @@ const packages = {
     createConfig({
       name: 'core',
     }),
+  react: () =>
+    createConfig({
+      name: 'react',
+      external: ['react', 'react/jsx-runtime'],
+    }),
 }
 
 const target = process.env.TARGET
