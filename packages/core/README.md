@@ -1,6 +1,6 @@
 # @pistachiojs/core
 
-Framework-agnostic TypeScript utility library with pure functions for common programming tasks. Provides clean, functional utilities that work in any JavaScript environment with zero dependencies.
+A TypeScript utility library with pure functions for common programming tasks. Provides clean, functional utilities that work in any JavaScript environment.
 
 [![npm version](https://img.shields.io/npm/v/@pistachiojs/core)](https://www.npmjs.com/package/@pistachiojs/core)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](../../coverage)
