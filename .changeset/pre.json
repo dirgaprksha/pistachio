@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "dev",
+  "initialVersions": {
+    "@pistachiojs/core": "0.3.0",
+    "@pistachiojs/react": "0.1.0",
+    "@pistachiojs/vue": "0.1.0"
+  },
+  "changesets": []
+}
