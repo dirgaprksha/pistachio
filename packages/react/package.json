@@ -36,7 +36,9 @@
     "react": ">=17"
   },
   "dependencies": {
-    "@pistachiojs/core": "workspace:*",
+    "@pistachiojs/core": "workspace:*"
+  },
+  "devDependencies": {
     "@types/react": "^17.0.0"
   }
 }
