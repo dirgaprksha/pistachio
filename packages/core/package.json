@@ -1,7 +1,7 @@
 {
   "name": "@pistachiojs/core",
   "description": "Framework-agnostic pure utility functions for common programming tasks",
-  "version": "0.3.0",
+  "version": "0.4.0-dev.0",
   "author": "Dirga Prakesha <dirga.prakesha@gmail.com>",
   "license": "MIT",
   "repository": {

@@ -6,5 +6,13 @@
     "@pistachiojs/react": "0.1.0",
     "@pistachiojs/vue": "0.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "dark-beds-yawn",
+    "dry-jobs-move",
+    "jolly-rings-press",
+    "lemon-experts-learn",
+    "petite-cougars-rush",
+    "upset-beans-care",
+    "wacky-ideas-juggle"
+  ]
 }

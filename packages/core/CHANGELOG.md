@@ -1,5 +1,20 @@
 # @pistachiojs/core
 
+## 0.4.0-dev.0
+
+### Minor Changes
+
+- 1e57177: - Added new omit function
+- 4148104: - Added new pick function
+
+### Patch Changes
+
+- 45ef032: - Fixed toCapitalize function to properly capitalize strings
+- 643f95f: - Fixed toCamelCase function to properly camel case strings
+- 89d03ef: - Fixed toTitleCase function to properly title case strings
+- 6aa222d: - Fixed toPascalCase function to properly pascal case strings
+- f8010c2: - Fixed toSlug function to properly slug strings
+
 ## 0.3.0
 
 ### Minor Changes

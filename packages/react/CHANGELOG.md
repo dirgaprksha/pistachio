@@ -1,5 +1,18 @@
 # @pistachiojs/react
 
+## 0.1.1-dev.0
+
+### Patch Changes
+
+- Updated dependencies [45ef032]
+- Updated dependencies [643f95f]
+- Updated dependencies [89d03ef]
+- Updated dependencies [1e57177]
+- Updated dependencies [6aa222d]
+- Updated dependencies [f8010c2]
+- Updated dependencies [4148104]
+  - @pistachiojs/core@0.4.0-dev.0
+
 ## 0.1.0
 
 ### Minor Changes
