@@ -29,7 +29,7 @@ describe('toPascalCase', () => {
 
   it('should handle single words', () => {
     expect(toPascalCase('hello')).toBe('Hello')
-    expect(toPascalCase('HELLO')).toBe('HELLO')
+    expect(toPascalCase('HELLO')).toBe('Hello')
   })
 
   it('should handle empty strings', () => {

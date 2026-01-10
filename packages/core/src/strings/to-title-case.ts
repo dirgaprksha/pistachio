@@ -6,5 +6,8 @@
 export function toTitleCase(value: string): string {
   if (value.length === 0) return value
 
-  return value.toLowerCase().replace(/(?:^|\s|-|_)\w/g, (character) => character.toUpperCase())
+  return value
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+    .toLowerCase()
+    .replace(/(?:^|\s|-|_)\w/g, (character) => character.toUpperCase())
 }

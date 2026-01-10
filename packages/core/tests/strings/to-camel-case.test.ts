@@ -29,7 +29,7 @@ describe('toCamelCase', () => {
 
   it('should handle single words', () => {
     expect(toCamelCase('hello')).toBe('hello')
-    expect(toCamelCase('HELLO')).toBe('hELLO')
+    expect(toCamelCase('HELLO')).toBe('hello')
   })
 
   it('should handle empty strings', () => {

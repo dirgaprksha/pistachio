@@ -26,8 +26,8 @@ describe('toTitleCase', () => {
   })
 
   it('should handle camel case', () => {
-    expect(toTitleCase('helloWorld')).toBe('Helloworld')
-    expect(toTitleCase('fooBarBaz')).toBe('Foobarbaz')
+    expect(toTitleCase('helloWorld')).toBe('Hello World')
+    expect(toTitleCase('fooBarBaz')).toBe('Foo Bar Baz')
   })
 
   it('should handle single words', () => {
