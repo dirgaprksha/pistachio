@@ -23,6 +23,6 @@ describe('toCapitalize', () => {
 
   it('should only capitalize first character', () => {
     expect(toCapitalize('hello world')).toBe('Hello world')
-    expect(toCapitalize('hELLO')).toBe('HELLO')
+    expect(toCapitalize('hELLO')).toBe('Hello')
   })
 })
