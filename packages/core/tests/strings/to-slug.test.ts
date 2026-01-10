@@ -9,8 +9,8 @@ describe('toSlug', () => {
   })
 
   it('should handle camel case and paccal case', () => {
-    expect(toSlug('helloWorld')).toBe('helloworld')
-    expect(toSlug('fooBarBaz')).toBe('foobarbaz')
+    expect(toSlug('helloWorld')).toBe('hello-world')
+    expect(toSlug('fooBarBaz')).toBe('foo-bar-baz')
   })
 
   it('should convert snake case to slug', () => {
@@ -34,7 +34,7 @@ describe('toSlug', () => {
 
   it('should remove special characters', () => {
     expect(toSlug('Hello World!')).toBe('hello-world')
-    expect(toSlug('Hello@World#2024')).toBe('helloworld2024')
+    expect(toSlug('Hello@World#2024')).toBe('hello-world-2024')
   })
 
   it('should handle extra whitespace', () => {
