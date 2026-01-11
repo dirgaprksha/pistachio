@@ -6,7 +6,8 @@
 export function toCamelCase(value: string): string {
   if (value.length === 0) return value
 
-  const separators = value.replace(/([a-z])([A-Z])/g, '$1-$2')
-
-  return separators.toLowerCase().replace(/[-_\s]+(.)?/g, (_, character) => (character ? character.toUpperCase() : ''))
+  return value
+    .replace(/([a-z])([A-Z])/g, '$1-$2')
+    .toLowerCase()
+    .replace(/[-_\s]+(.)?/g, (_, character) => (character ? character.toUpperCase() : ''))
 }
