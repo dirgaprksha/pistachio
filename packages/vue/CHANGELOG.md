@@ -1,5 +1,11 @@
 # @pistachiojs/vue
 
+## 0.2.0-dev.1
+
+### Minor Changes
+
+- 53891dc: - Added new usePrevious function
+
 ## 0.1.1-dev.0
 
 ### Patch Changes

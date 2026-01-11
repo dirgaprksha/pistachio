@@ -1,7 +1,7 @@
 {
   "name": "@pistachiojs/vue",
   "description": "Vue composables built on top of @pistachiojs/core for reactive programming tasks",
-  "version": "0.1.1-dev.0",
+  "version": "0.2.0-dev.1",
   "author": "Dirga Prakesha <dirga.prakesha@gmail.com>",
   "license": "MIT",
   "repository": {
