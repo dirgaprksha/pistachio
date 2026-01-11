@@ -88,12 +88,13 @@ importers:
       '@pistachiojs/core':
         specifier: workspace:*
         version: link:../core
-      '@types/react':
-        specifier: ^17.0.0
-        version: 17.0.90
       react:
         specifier: '>=17'
         version: 19.2.3
+    devDependencies:
+      '@types/react':
+        specifier: ^17.0.0
+        version: 17.0.90
 
   packages/vue:
     dependencies:
@@ -2261,7 +2262,7 @@ packages:
 
   /@types/prop-types@15.7.15:
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
-    dev: false
+    dev: true
 
   /@types/react@17.0.90:
     resolution: {integrity: sha512-P9beVR/x06U9rCJzSxtENnOr4BrbJ6VrsrDTc+73TtHv9XHhryXKbjGRB+6oooB2r0G/pQkD/S4dHo/7jUfwFw==}
@@ -2269,7 +2270,7 @@ packages:
       '@types/prop-types': 15.7.15
       '@types/scheduler': 0.16.8
       csstype: 3.2.3
-    dev: false
+    dev: true
 
   /@types/resolve@1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -2277,7 +2278,7 @@ packages:
 
   /@types/scheduler@0.16.8:
     resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
-    dev: false
+    dev: true
 
   /@typescript-eslint/eslint-plugin@8.51.0(@typescript-eslint/parser@8.51.0)(eslint@8.57.1)(typescript@5.9.3):
     resolution: {integrity: sha512-XtssGWJvypyM2ytBnSnKtHYOGT+4ZwTnBVl36TA4nRO2f4PRNGz5/1OszHzcZCvcBMh+qb7I06uoCmLTRdR9og==}
@@ -2950,7 +2951,6 @@ packages:
 
   /csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
-    dev: false
 
   /dargs@8.1.0:
     resolution: {integrity: sha512-wAV9QHOsNbwnWdNW2FYvE1P56wtgSbM+3SZcdGiWQILwVjACCXDCI3Ai8QlCjMDB8YK5zySiXZYBiwGmNY3lnw==}
