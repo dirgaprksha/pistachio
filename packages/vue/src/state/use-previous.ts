@@ -3,7 +3,7 @@ import type { Ref, ShallowRef } from 'vue'
 
 /**
  * Vue composable to track previous value of a state or prop.
- * @param value - Current value to track.
+ * @param value - Value to track.
  * @returns Previous value.
  */
 export function usePrevious<T>(value: Ref<T> | T): ShallowRef<T | undefined> {
